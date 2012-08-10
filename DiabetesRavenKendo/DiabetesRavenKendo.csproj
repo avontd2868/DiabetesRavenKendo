@@ -207,12 +207,6 @@
     <Content Include="Views\DiabetesLogEntry\Details.cshtml" />
     <Content Include="Views\DiabetesLogEntry\Index.cshtml" />
     <Content Include="Views\DiabetesLogEntry\_CreateOrEdit.cshtml" />
-    <Content Include="Views\InsulinDosage\Create.cshtml" />
-    <Content Include="Views\InsulinDosage\Edit.cshtml" />
-    <Content Include="Views\InsulinDosage\Delete.cshtml" />
-    <Content Include="Views\InsulinDosage\Details.cshtml" />
-    <Content Include="Views\InsulinDosage\Index.cshtml" />
-    <Content Include="Views\InsulinDosage\_CreateOrEdit.cshtml" />
     <Content Include="Views\DiabetesLogEntry\_DetailGrid.cshtml" />
   </ItemGroup>
   <ItemGroup>
