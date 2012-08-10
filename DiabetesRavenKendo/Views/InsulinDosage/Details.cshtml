@@ -1,0 +1,26 @@
+@model DiabetesRavenKendo.Models.InsulinDosageModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>InsulinDosageModel</legend>
+
+    <div class="display-label">Units</div>
+    <div class="display-field">@String.Format("{0:F}", Model.Units)</div>
+
+    <div class="display-label">InsulinType</div>
+    <div class="display-field">@Html.DisplayTextFor(_ => Model.InsulinType).ToString()</div>
+
+    <div class="display-label">InjectionLocation</div>
+    <div class="display-field">@Model.InjectionLocation</div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+

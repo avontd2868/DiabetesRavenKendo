@@ -1,0 +1,18 @@
+@model DiabetesRavenKendo.Models.DiabetesLogEntryModel
+
+@* This partial view defines form fields that will appear when creating and editing entities *@
+
+<fieldset>
+    <legend>DiabetesLogEntryModel</legend>
+    <div class="display-label">Date</div>
+    <div class="display-field">@String.Format("{0:g}", Model.Date)</div>
+
+    <div class="display-label">Glucose</div>
+    <div class="display-field">@String.Format("{0} mg/dL",@Model.GlucoseReading.Glucose)</div>
+
+    <div class="display-label">Location</div>
+    <div class="display-field">@Model.GlucoseReading.Location</div>
+
+    <div class="display-label">Comments</div>
+    <div class="display-field">@Model.Comments</div>
+</fieldset>

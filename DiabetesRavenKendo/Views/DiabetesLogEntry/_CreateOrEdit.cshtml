@@ -1,0 +1,42 @@
+@using DiabetesRavenKendo.Helpers
+@model DiabetesRavenKendo.Models.DiabetesLogEntryModel
+
+@* This partial view defines form fields that will appear when creating and editing entities *@
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.Date)
+</div>
+<div class="editor-field">
+    @Html.Kendo().DatePicker().Name("Date").Value(DateTime.Now).Max(DateTime.Now.AddDays(1)).Min(new DateTime(2012,6,17))
+</div>
+
+<div class="editor-label">
+    @Html.Label("Time")
+</div>
+<div class="editor-field">
+    @Html.Kendo().TimePicker().Name("Time").Interval(1).Value(DateTime.Now)
+</div>
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.GlucoseReading.Glucose)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model.GlucoseReading.Glucose)
+    @Html.ValidationMessageFor(model => model.GlucoseReading.Glucose)
+</div>
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.GlucoseReading.Location)
+</div>
+<div class="editor-field">
+    @Html.EnumDropDownListFor(model => model.GlucoseReading.Location)
+</div>
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.Comments)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model.Comments)
+    @Html.ValidationMessageFor(model => model.Comments)
+</div>
+
