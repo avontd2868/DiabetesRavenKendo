@@ -23,7 +23,7 @@ namespace DiabetesRavenKendo.Models
     public class GlucoseReadingModel : RavenBaseModel
     {
         public string Glucose { get; set; }
-        public GluscoseStickLocationEnum Location { get; set;}
+        public GluscoseStickLocationEnum Location { get; set; }
     }
 
     public enum InsulinEnum
@@ -55,12 +55,50 @@ namespace DiabetesRavenKendo.Models
             GlucoseReading = new GlucoseReadingModel() { Location = GluscoseStickLocationEnum.NA };
         }
 
+        private List<InsulinDosageModel> InitializeDoages()
+        {
+            return new List<InsulinDosageModel>{
+                new InsulinDosageModel(){ InsulinType = InsulinEnum.Novalog, InjectionLocation = "N/A", Units = 0}
+                , new InsulinDosageModel(){ InsulinType = InsulinEnum.Lantus, InjectionLocation = "N/A", Units = 0}
+            };
+
+        }
+
         public DateTime Date { get; set; }
         public DateTime Time { get; set; }
         public IEnumerable<InsulinDosageModel> InsulinDosages { get; set; }
-        public IEnumerable<FoodItemModel> FoodItems { get; set;}
+        public IEnumerable<FoodItemModel> FoodItems { get; set; }
         public GlucoseReadingModel GlucoseReading { get; set; }
         public string Comments { get; set; }
+
+        public InsulinDosageModel this[InsulinEnum insulinType]
+        {
+            get
+            {
+                return GetInsulinModel(insulinType);
+            }
+            set
+            {
+                InsulinDosageModel currentModel = GetInsulinModel(insulinType);
+                if (null == currentModel)
+                    currentModel = value;
+            }
+        }
+
+        private InsulinDosageModel GetInsulinModel(InsulinEnum insulinType)
+        {
+            if (null == InsulinDosages) return null;
+            InsulinDosageModel rtn = null;
+            foreach (InsulinDosageModel model in InsulinDosages)
+            {
+                if (model.InsulinType.Equals(insulinType))
+                {
+                    rtn = model;
+                    break;
+                }
+            }
+            return rtn;
+        }
     }
 
     public class RavenBaseModel

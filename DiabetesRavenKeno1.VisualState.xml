@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1000]C:\Source\DiabetesRavenKendo\DiabetesRavenKeno1.nunit</TopNode>
+  <SelectedNode>[0-1003]Scarlett.Diabetes.Log.Twilio.Tests.TwilioMessageSenderTests.TestSendMessageWithNullPhone</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]C:\Source\DiabetesRavenKendo\DiabetesRavenKeno1.nunit" Expanded="true" />
+    <Node UniqueName="[0-1004]C:\Source\DiabetesRavenKendo\Scarlett.Diabetes.Log.Twilio.Tests\bin\Debug\Scarlett.Diabetes.Log.Twilio.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1005]Scarlett" Expanded="true" />
+    <Node UniqueName="[0-1006]Scarlett.Diabetes" Expanded="true" />
+    <Node UniqueName="[0-1007]Scarlett.Diabetes.Log" Expanded="true" />
+    <Node UniqueName="[0-1008]Scarlett.Diabetes.Log.Twilio" Expanded="true" />
+    <Node UniqueName="[0-1009]Scarlett.Diabetes.Log.Twilio.Tests" Expanded="true" />
+    <Node UniqueName="[0-1001]Scarlett.Diabetes.Log.Twilio.Tests.TwilioMessageSenderTests" Expanded="true" />
+  </Nodes>
+</VisualState>

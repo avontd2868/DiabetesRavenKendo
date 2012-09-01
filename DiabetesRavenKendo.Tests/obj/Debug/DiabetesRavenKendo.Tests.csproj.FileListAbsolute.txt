@@ -1,4 +1,3 @@
-C:\Source\DiabetesRavenKendo\DiabetesRavenKendo.Tests\obj\Debug\DiabetesRavenKendo.Tests.csprojResolveAssemblyReference.cache
 C:\Source\DiabetesRavenKendo\DiabetesRavenKendo.Tests\bin\Debug\DiabetesRavenKendo.Tests.dll.config
 C:\Source\DiabetesRavenKendo\DiabetesRavenKendo.Tests\bin\Debug\DiabetesRavenKendo.Tests.dll
 C:\Source\DiabetesRavenKendo\DiabetesRavenKendo.Tests\bin\Debug\DiabetesRavenKendo.Tests.pdb
@@ -14,5 +13,6 @@ C:\Source\DiabetesRavenKendo\DiabetesRavenKendo.Tests\bin\Debug\Newtonsoft.Json.
 C:\Source\DiabetesRavenKendo\DiabetesRavenKendo.Tests\bin\Debug\Raven.Abstractions.pdb
 C:\Source\DiabetesRavenKendo\DiabetesRavenKendo.Tests\bin\Debug\Raven.Abstractions.xml
 C:\Source\DiabetesRavenKendo\DiabetesRavenKendo.Tests\bin\Debug\NLog.xml
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo.Tests\obj\Debug\DiabetesRavenKendo.Tests.csprojResolveAssemblyReference.cache
 C:\Source\DiabetesRavenKendo\DiabetesRavenKendo.Tests\obj\Debug\DiabetesRavenKendo.Tests.dll
 C:\Source\DiabetesRavenKendo\DiabetesRavenKendo.Tests\obj\Debug\DiabetesRavenKendo.Tests.pdb

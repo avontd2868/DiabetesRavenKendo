@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\obj\Debug\DiabetesRavenKendo.csprojResolveAssemblyReference.cache
 C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\bin\DiabetesRavenKendo.dll
 C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\bin\DiabetesRavenKendo.pdb
@@ -50,3 +51,31 @@ C:\Users\kevin.moormann\Documents\GitHub\DiabetesRavenKendo\DiabetesRavenKendo\b
 C:\Users\kevin.moormann\Documents\GitHub\DiabetesRavenKendo\DiabetesRavenKendo\obj\Debug\DiabetesRavenKendo.csprojResolveAssemblyReference.cache
 C:\Users\kevin.moormann\Documents\GitHub\DiabetesRavenKendo\DiabetesRavenKendo\obj\Debug\DiabetesRavenKendo.dll
 C:\Users\kevin.moormann\Documents\GitHub\DiabetesRavenKendo\DiabetesRavenKendo\obj\Debug\DiabetesRavenKendo.pdb
+=======
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\bin\DiabetesRavenKendo.dll
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\bin\DiabetesRavenKendo.pdb
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\bin\EntityFramework.dll
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\bin\Kendo.Mvc.dll
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\bin\Microsoft.Web.Infrastructure.dll
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\bin\Newtonsoft.Json.dll
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\bin\NLog.dll
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\bin\Raven.Abstractions.dll
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\bin\Raven.Client.Lightweight.dll
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\bin\System.Web.Helpers.dll
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\bin\System.Web.Mvc.dll
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\bin\System.Web.Providers.dll
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\bin\System.Web.Razor.dll
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\bin\System.Web.WebPages.Deployment.dll
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\bin\System.Web.WebPages.dll
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\bin\System.Web.WebPages.Razor.dll
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\bin\EntityFramework.xml
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\bin\Newtonsoft.Json.xml
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\bin\NLog.xml
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\bin\Raven.Abstractions.pdb
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\bin\Raven.Abstractions.xml
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\bin\Raven.Client.Lightweight.pdb
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\bin\Raven.Client.Lightweight.xml
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\obj\Debug\DiabetesRavenKendo.dll
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\obj\Debug\DiabetesRavenKendo.pdb
+C:\Source\DiabetesRavenKendo\DiabetesRavenKendo\obj\Debug\DiabetesRavenKendo.csprojResolveAssemblyReference.cache
+>>>>>>> b8018593a5238f699c8890bb945d5d1d4b39d1a0

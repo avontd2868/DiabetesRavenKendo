@@ -1,0 +1,13 @@
+C:\Source\DiabetesRavenKendo\GOConsole\bin\Debug\GOConsole.exe.config
+C:\Source\DiabetesRavenKendo\GOConsole\bin\Debug\GOConsole.exe
+C:\Source\DiabetesRavenKendo\GOConsole\bin\Debug\GOConsole.pdb
+C:\Source\DiabetesRavenKendo\GOConsole\bin\Debug\Scarlett.Diabetes.Log.Twilio.dll
+C:\Source\DiabetesRavenKendo\GOConsole\bin\Debug\Twilio.Api.dll
+C:\Source\DiabetesRavenKendo\GOConsole\bin\Debug\Newtonsoft.Json.dll
+C:\Source\DiabetesRavenKendo\GOConsole\bin\Debug\Scarlett.Diabetes.Log.Twilio.pdb
+C:\Source\DiabetesRavenKendo\GOConsole\bin\Debug\Twilio.Api.pdb
+C:\Source\DiabetesRavenKendo\GOConsole\bin\Debug\Twilio.Api.xml
+C:\Source\DiabetesRavenKendo\GOConsole\bin\Debug\Newtonsoft.Json.xml
+C:\Source\DiabetesRavenKendo\GOConsole\obj\Debug\GOConsole.csprojResolveAssemblyReference.cache
+C:\Source\DiabetesRavenKendo\GOConsole\obj\Debug\GOConsole.exe
+C:\Source\DiabetesRavenKendo\GOConsole\obj\Debug\GOConsole.pdb
