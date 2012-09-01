@@ -1,3 +1,4 @@
+@using DiabetesRavenKendo.Models;
 @model IEnumerable<DiabetesRavenKendo.Models.DiabetesLogEntryModel>
 
 @{
@@ -22,6 +23,9 @@
             Location
         </th>
         <th>
+            Lantus
+        </th>
+        <th>
             Comments
         </th>
     </tr>
@@ -41,6 +45,9 @@
         </td>
         <td>
             @String.Format("{0}", item.GlucoseReading.Location)
+        </td>
+        <td>
+            @String.Format("{0:0.##}", (null == item[InsulinEnum.Lantus]) ? 0 : item[InsulinEnum.Lantus].Units)
         </td>
         <td>
 			@item.Comments

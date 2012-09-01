@@ -33,6 +33,22 @@
 </div>
 
 <div class="editor-label">
+    @Html.LabelFor(model => model[DiabetesRavenKendo.Models.InsulinEnum.Lantus].Units)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model[DiabetesRavenKendo.Models.InsulinEnum.Lantus].Units)
+    @Html.ValidationMessageFor(model => model[DiabetesRavenKendo.Models.InsulinEnum.Lantus].Units)
+</div>
+
+<div class="editor-label">
+    @Html.LabelFor(model => model[DiabetesRavenKendo.Models.InsulinEnum.Novalog].Units)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model[DiabetesRavenKendo.Models.InsulinEnum.Novalog].Units)
+    @Html.ValidationMessageFor(model => model[DiabetesRavenKendo.Models.InsulinEnum.Novalog].Units)
+</div>
+
+<div class="editor-label">
     @Html.LabelFor(model => model.Comments)
 </div>
 <div class="editor-field">

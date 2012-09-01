@@ -1,0 +1,14 @@
+C:\Source\DiabetesRavenKendo\Scarlett.Diabetes.Log.Twilio.Tests\bin\Debug\Scarlett.Diabetes.Log.Twilio.Tests.dll
+C:\Source\DiabetesRavenKendo\Scarlett.Diabetes.Log.Twilio.Tests\bin\Debug\Scarlett.Diabetes.Log.Twilio.Tests.pdb
+C:\Source\DiabetesRavenKendo\Scarlett.Diabetes.Log.Twilio.Tests\bin\Debug\nunit.framework.dll
+C:\Source\DiabetesRavenKendo\Scarlett.Diabetes.Log.Twilio.Tests\bin\Debug\Scarlett.Diabetes.Log.Twilio.dll
+C:\Source\DiabetesRavenKendo\Scarlett.Diabetes.Log.Twilio.Tests\bin\Debug\Twilio.Api.dll
+C:\Source\DiabetesRavenKendo\Scarlett.Diabetes.Log.Twilio.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Source\DiabetesRavenKendo\Scarlett.Diabetes.Log.Twilio.Tests\bin\Debug\Scarlett.Diabetes.Log.Twilio.pdb
+C:\Source\DiabetesRavenKendo\Scarlett.Diabetes.Log.Twilio.Tests\bin\Debug\nunit.framework.xml
+C:\Source\DiabetesRavenKendo\Scarlett.Diabetes.Log.Twilio.Tests\bin\Debug\Twilio.Api.pdb
+C:\Source\DiabetesRavenKendo\Scarlett.Diabetes.Log.Twilio.Tests\bin\Debug\Twilio.Api.xml
+C:\Source\DiabetesRavenKendo\Scarlett.Diabetes.Log.Twilio.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Source\DiabetesRavenKendo\Scarlett.Diabetes.Log.Twilio.Tests\obj\Debug\Scarlett.Diabetes.Log.Twilio.Tests.csprojResolveAssemblyReference.cache
+C:\Source\DiabetesRavenKendo\Scarlett.Diabetes.Log.Twilio.Tests\obj\Debug\Scarlett.Diabetes.Log.Twilio.Tests.dll
+C:\Source\DiabetesRavenKendo\Scarlett.Diabetes.Log.Twilio.Tests\obj\Debug\Scarlett.Diabetes.Log.Twilio.Tests.pdb
