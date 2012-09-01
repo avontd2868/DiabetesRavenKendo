@@ -9,7 +9,19 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table>
+<ul data-role="listview" data-theme="b">
+    @foreach (var item in Model) {
+    <li>@Html.ActionLink(
+                            string.Format("{0} {1} mg/mL"
+                                        ,item.Time.ToString("g",System.Globalization.DateTimeFormatInfo.InvariantInfo)
+                                        ,item.GlucoseReading.Glucose)
+                            , "Details"
+                            , new { id = item.Id}
+                        )
+    </li>
+    }
+</ul>
+@*<table>
     <tr>
         <th></th>
         <th>
@@ -50,4 +62,4 @@
 
 </table>
 
-
+*@
